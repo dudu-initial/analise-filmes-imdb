@@ -1,38 +1,35 @@
-# analise-filmes-imdb
+# 🎬 Projeto: Análise de Dados de Filmes
 
-# 1. Sobre o projeto
-Análise exploratória de um conjunto de dados de filmes, com o objetivo de encontrar padrões e insights sobre avaliações, receitas, gêneros e orçamentos de filmes.
+## 📌 Descrição
+Este projeto realiza uma análise exploratória em um conjunto de dados de filmes, buscando identificar padrões em avaliações, arrecadações, orçamentos e gêneros.
 
-# 2. Base de Dados
-Fonte: [Link para o dataset ou descrição da fonte]
+## 🗂️ Base de Dados
+- Fonte: [coloque aqui o link do dataset, ex: Kaggle - The Movies Dataset]
+- Principais colunas: Título, Gênero, Nota IMDb, Receita, Orçamento, Ano de lançamento.
 
-Campos principais: Título, Gênero, Nota, Receita, Orçamento, Ano de lançamento.
+## 🎯 Objetivos da Análise
+- Identificar os gêneros de filmes mais bem avaliados.
+- Analisar a relação entre orçamento e avaliação dos filmes.
+- Descobrir quais décadas lançaram filmes mais bem avaliados.
+- Avaliar o retorno financeiro dos filmes por gênero.
 
-# 3. Perguntas de Negócio
-Quais são os gêneros com melhor avaliação média?
+## 🛠️ Tecnologias e Bibliotecas
+- Python 3.11
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Existe relação entre orçamento e nota do filme?
+## 📊 Principais Insights
+- 🎯 [Insight 1: Gênero mais bem avaliado]
+- 🎯 [Insight 2: Relação orçamento vs. nota]
+- 🎯 [Insight 3: Melhor década para filmes]
+- 🎯 [Insight 4: Gênero com melhor retorno financeiro]
 
-Em qual década foram lançados os filmes mais bem avaliados?
+*(Preencha conforme os insights reais que você descobrir)*
 
-Qual o retorno financeiro médio dos filmes por gênero?
+## ▶️ Como Executar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/projeto-analise-filmes.git
 
-# 4. Tecnologias Utilizadas
-Python 3.11
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-# 5. Principais Insights
-🎯 Filmes do gênero Drama tendem a ter notas mais altas em média.
-
-🎯 Não há forte correlação entre orçamento alto e notas melhores.
-
-🎯 Filmes dos anos 90 apresentaram uma boa combinação entre notas altas e boas arrecadações.
-
-🎯 Filmes de Terror têm o menor retorno financeiro proporcional ao orçamento.
